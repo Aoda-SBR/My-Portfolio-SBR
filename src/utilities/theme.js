@@ -5,7 +5,7 @@ const themeToggle = () => {
     // state
     const theme = localStorage.getItem('theme'); 
 
-    // O mask 
+    // condition
     theme && document.body.classList.add(theme);
 
     // Handler
