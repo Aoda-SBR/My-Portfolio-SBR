@@ -1,0 +1,4 @@
+
+1. Increase featured project link icon size when it will be hover
+2. Add btn box shadow
+3. put new clr theme for subtitle slate 200 

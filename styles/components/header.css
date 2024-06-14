@@ -1,0 +1,113 @@
+.header {
+    height: 4rem;
+    border-bottom: 1px solid var(--clr-slate800);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: relative;
+    z-index: 999;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.header__menu {
+    display: none;
+}
+
+.header__bars {
+    color: var(--clr-light);
+    width:  var(--text-2xl);
+    height: var(--text-2xl);
+}
+
+.dis-xmark {
+    display: none;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+    .header__menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 1.25rem;
+    }
+
+    .header__link {
+        font-size: var(--text-xs);
+        font-weight: 600;
+        color: var(--clr-slate600);
+        letter-spacing: -0.05em;
+        padding: 0.3rem 0.6rem ;
+        border-radius: 8px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .header__link:hover {
+        color: #f1f5f9;
+        background-color: var(--clr-slate800);
+    }
+
+    .header__line {
+        border: 1px solid var(--clr-slate600);
+        padding-top: 1.2rem;
+        border-radius: 8px;
+    }
+
+    .header__sun {
+        display: block;
+        color: var(--clr-slate600);
+        width:  var(--text-xl);
+        height: var(--text-xl);
+        transition: color 0.3s;
+    }
+
+    .header__sun:hover {
+        color: var(--clr-light);
+    }
+
+    .header__bars {
+        display: none;
+    } 
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .header__menu {
+        gap: 1.5rem;
+    }
+
+    .header__link {
+        font-size: var(--text-sm);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .header__menu {
+        gap: 1.875rem;
+    }
+
+    .header__link {
+        font-size: var(--text-base);
+    }
+
+    .header__sun {
+        width:  var(--text-2xl);
+        height: var(--text-2xl);
+    }
+}
+
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

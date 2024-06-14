@@ -1,0 +1,28 @@
+
+general {
+    title: 2xl
+    subtitle: base
+    description: sm
+    gap: 1rem
+}
+
+min-width: 475px {
+    title: 3xl
+    subtitle: lg
+    description: base
+    gap: 1.25
+}
+
+min-width: 1024px {
+    title: 4xl
+    subtitle: xl
+    description: base
+    gap: 1.5
+}
+
+min-width: 1280px {
+    title: 5xl
+    subtitle: 2xl
+    description: lg
+    gap: 1.875
+}
