@@ -26,22 +26,13 @@
 
 @keyframes reload-btn {
     100% {
-        box-shadow: 0px 0px 25px var(--clr-green);
-    }
-    50% {
         box-shadow: 0px 0px 15px var(--clr-green);
     }
+    50% {
+        box-shadow: 0px 0px 5px var(--clr-green);
+    }
     0% {
-        box-shadow: 0px 0px 25px var(--clr-green);
-    }
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
+        box-shadow: 0px 0px 15px var(--clr-green);
     }
 }
 

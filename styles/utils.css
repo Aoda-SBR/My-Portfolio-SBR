@@ -25,15 +25,12 @@
     background-color: var(--clr-green);
     color: #e2e8f0;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px #22c55eb7, 0px 6px 6px #22c55e77, 0 0 100px -10px #22c55e;
-    transition: transform 0.3s;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    transform: translateY(-7%);
-    box-shadow: 0 0 10px #22c55eb7, 
-    0 1px 1px #22c55e77, 
-    0 0 50px -20px #22c55e;
+    background-color: var(--clr-green400);
+    color: #f1f5f9;
 }
 
 .container {

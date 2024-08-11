@@ -45,7 +45,6 @@
 
 .hero__wrapper {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
@@ -102,11 +101,7 @@
 }
 
 /* sm */
-@media (min-width: 640px) {
-    .hero__wrapper {
-        flex-direction: row;
-    }
-}
+/* @media (min-width: 640px) {} */
 
 /* md */
 /* @media (min-width: 768px) {} */
